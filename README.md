@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# React TypeScript Image Slider with Auto Play 🎞️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/CH-Walid/React-TypeScript-Image-Slider-with-Auto-Play/assets/75185278/9e344e09-ced4-4efe-b87a-22f4834c19a2)
 
-Currently, two official plugins are available:
+This GitHub repository houses a versatile and feature-rich image slider built with React and TypeScript.
+This customizable slider provides smooth navigation with options to traverse through images using the next and previous buttons manually.
+Additionally, it comes equipped with an automatic play feature, cycling through slides every second, enhancing user experience. Users also have the flexibility to pause the auto-play functionality at any time, giving them complete control over their slideshow experience.
+Dive into dynamic image presentations with this well-documented and easy-to-integrate React image slider.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started:
 
-## Expanding the ESLint configuration
+- Clone the repository to your local machine.
+- Install dependencies using npm install.
+- Run the development server with npm run dev.
+- Customize and integrate the slider into your React projects with ease! 🎉
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Happy Coding! 🚀🎉
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
